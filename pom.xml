@@ -31,6 +31,12 @@
 	<scope>test</scope>
    </dependency>
    </dependencies>  
-	
+  <distributionManagement>
+  <snapshotRepository>
+	  <id>cicd</id>
+	  <name>cicd</name>
+	  <url>http://3.91.32.248:8081/repository/cicd/</url>
+	  </snapshotRepository>
+  </distributionManagement>	  
   
 </project>
