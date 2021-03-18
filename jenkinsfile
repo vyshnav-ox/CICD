@@ -13,10 +13,10 @@ pipeline {
 		 }
 		}
       stage(deploy){
-        steps{
-          sh '''mvn clean deploy -Dmaven.test.failure.ignore=true'''
-          }
-        }
-    }
+           steps{
+                sh '''mvn clean deploy -Dmaven.test.failure.ignore=true'''
+               }
+             }
+     }
 }	
 	  
