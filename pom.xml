@@ -35,7 +35,7 @@
   <snapshotRepository>
 	  <id>cicd</id>
 	  <name>cicd</name>
-	  <url>http://3.91.32.248:8081/repository/cicd/</url>
+	  <url>http://174.129.54.63:8081/repository/cicd/</url>
 	  </snapshotRepository>
   </distributionManagement>	  
   
